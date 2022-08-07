@@ -1,0 +1,93 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: 'Nunito', sans-serif;;
+
+}
+
+
+/* MenuBar */
+.menubar {
+  height: 100vh;
+  width: 100%;
+  background-image: url(img/Default.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+/* Nav */
+nav {
+  display: flex;
+align-items: center;
+justify-content: space-between;
+padding-top: 10px;
+padding-left: 20px;
+padding-right: 20px;
+
+}
+.logo {
+  color: white;
+  font-size: 40px;
+}
+span{
+  color: rgba(255, 0, 0, 0.338);
+}
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+nav ul li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 22px;
+}
+nav ul li a:hover {
+  color: rgb(94, 255, 255);
+  transition: 0.5s;
+}
+
+.button {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  background: aquamarine;
+  padding: 12px 30px;
+  border-radius: 30px;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  transition: .5s;
+}
+.button:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.log {
+  font-size: 15px;
+}
+.main {
+  padding: 0px;
+  font-size: 30px;
+  color: white;
+}
+.profile {
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.suraj {
+  width: 200px;
+  clip-path: circle();
+}
+.main h1 {
+  text-align: center;
+}
+.main h2 {
+  text-align: center;
+}
